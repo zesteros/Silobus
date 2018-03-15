@@ -1,0 +1,2 @@
+consulta para extraer
+select ru.IdRuta as ruta, pa.Lat as latitud, pa.Lon as longituf from (paradas_rutas pr join rutas ru on pr.idRuta = ru.Id) join paradas pa on pa.Id = pr.idParada where ru.IdRuta = "X-62-I";

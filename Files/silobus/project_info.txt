@@ -1,0 +1,21 @@
+info:
+MAPS EN ANDROID:
+https://developers.google.com/maps/documentation/android-api/start?hl=es-419
+http://stackoverflow.com/questions/27504606/how-to-implement-draggable-map-like-uber-android-update-with-change-location
+https://developer.android.com/training/maps/index.html
+https://developers.google.com/maps/documentation/android-api/code-samples?hl=es-419
+http://stackoverflow.com/questions/14157536/how-do-i-set-default-location-and-zoom-level-for-google-map-api-v2
+https://yalantis.com/blog/uber-underlying-technologies-and-how-it-actually-works/
+
+GPS EN ARDUINO;
+http://www.naylampmechatronics.com/blog/18_Tutorial-M%C3%B3dulo-GPS-con-Arduino.html
+http://www.leantec.es/blog/54_Tutorial-Arduino--Modulo-GPS-GPS6MV2.html
+https://cristiansteib.github.io/Gps-neo-6m
+http://www.instructables.com/id/How-to-Communicate-Neo-6M-GPS-to-Arduino/
+
+GPS+GSM EN ARDUINO:
+http://www.prometec.net/sim808/
+
+INFRARROJO:
+https://minibots.wordpress.com/2013/11/30/utilizacion-del-sensor-de-distancia-sharp-2y0a21/
+https://robologs.net/2014/05/15/tutorial-de-arduino-y-sharp/

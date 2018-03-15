@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <itl.silobus.settings.NumberPickerPreference
+        android:defaultValue="10"
+        android:key="amount_buses_showing"
+        android:summary="@string/amount_stops_setting_summary"
+        android:title="@string/amount_stops_setting_title" />
+    <EditTextPreference
+        android:key="ip_key"
+        android:hint="192.168.3.100"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:summary="Establezca la dirección del servidor a conectar"
+        android:title="Dirección del servidor"/>
+    <EditTextPreference
+        android:key="port_key"
+        android:hint="10001"
+        android:maxLines="1"
+        android:inputType="numberDecimal"
+        android:selectAllOnFocus="true"
+        android:summary="Establezca el puerto de acceso al servidor"
+        android:title="Puerto de acceso"/>
+</PreferenceScreen>

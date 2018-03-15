@@ -1,0 +1,8 @@
+idParada = idstop (id en su tabla)
+idRuta = idroute (id en su tabla)
+
+select routes.idRuta, routes.Ruta
+from (
+	rutas routes join paradas_rutas stops_routes on routes.Id = stops_routes.idRuta
+     ) join paradas stops on stops.Id = stops_routes.idParada
+where stops.Lat = 21.135372 and stops.Lon = -101.718016;

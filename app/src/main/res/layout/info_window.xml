@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/route"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ruta: X-62-I"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/capacity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Capacidad: 30%"
+        android:layout_gravity="center"/>
+<!--
+    <TextView
+        android:id="@+id/people_inside"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personas a bordo: 21"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/seats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Asientos disponibles: 4"
+        android:layout_gravity="center"/>-->
+</LinearLayout>
